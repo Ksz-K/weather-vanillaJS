@@ -19,7 +19,7 @@ class UI {
     )} <span>&deg;C</span>`;
     this.icon.setAttribute(
       "src",
-      `http://openweathermap.org/img/w/${weather.weather[0].icon}.png`
+      `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`
     );
     this.humidity.textContent = `Wilgotność: ${weather.main.humidity}`;
     this.feelsLike.innerHTML = `Temperatura odczuwalna: ${(
