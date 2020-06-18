@@ -49,12 +49,9 @@ selectCountry.addEventListener("change", () => {
 //Change location event
 document.getElementById("w-change-btn").addEventListener("click", (e) => {
   const city = document.getElementById("city").value;
-  console.log(citiesOfcountrySelected);
-  console.log(city);
   const citySelected = citiesOfcountrySelected.filter(
     (item) => item.name === city
   );
-  console.log(citySelected);
   const locationID = citySelected[0].id;
   //Change location
   weather.changeLocation(locationID);
