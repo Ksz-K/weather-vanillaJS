@@ -5,6 +5,8 @@ Just VanillaJS and Classes.
 
 App uses https://openweathermap.org/ API interface.
 
+App uses MongoDB in the cloud.
+
 ### Live demo
 
 The working demo might be found on:
